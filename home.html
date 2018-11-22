@@ -30,7 +30,7 @@
 			    <span class="icon-bar"></span>
 			  </button>
         <!-- <a class="navbar-brand" href="index.html">ESGCC</a> -->
-          <img class="navbar-brand logo" src="img/portfolio/Untitled.png" alt="">
+          <img class="navbar-brand logo" src="img/logo-new.png" alt="">
           <!-- <a class="navbar-brand" href="#">
             <img src="Website Data\Website\1. Logos\untitled.png" width="200" height="80" class="d-inline-block align-top" alt="">
           </a> -->
@@ -62,6 +62,9 @@
     </div>
   </div>
   <!--BANNER END-->
+
+
+  
   <!--Our Projects START-->
   <div id="portfolio">
     <div class="container">
@@ -181,60 +184,45 @@
         </div>
         <div class="col-md-6">
           <div class="service-box">
-            <div class="service-icon"><i class="fa fa-picture-o"></i></div>
-            <div class="service-text">
-              <h3>Civil Contracting</h3>
-              <p> Our dedicated team of project specialist have extensive experience installing a wide variety of systems to meet the individual customer’s requirements.</p>
+            <div class=""><img src="img/services/Elite Glass Scratch Remover.bmp" alt=""></div>
+          </br>
+            <div class="service-text ">
+              <h3>Elite Glass Scratch Remover</h3>
+              <p>Our portable system uses a one-step process to remove glass damage faster and more efficiently than any other system. Customers tell us they can remove typical glass damage up to five times faster with Gforce and with no visible distortion. Our system also can be used for deep scratches. With the addition of Microforce, you can remove deep scratches fast and with flawless results.</p>
             </div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="service-box">
-            <div class="service-icon"><i class="fa fa fa-code"></i></div>
+            <div class=""><img src="img/services/Technical services.png" alt=""></div>
+          </br>
             <div class="service-text">
-              <h3>Electrical Services</h3>
-              <p> Our experience and knowledge to successfully install virtually any type of electrical system in order to meet an individual clients requirements. The quality of our work is unsurpassed.</p>
+              <h3>Elite Technical service</h3>
+              <p>Elite Skills technical services provides professional blue collar with knowledge in Facade & GRC works with a back ground experience in UAE & GCC.</p>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="service-box">
-            <div class="service-icon"><i class="fa fa-diamond"></i></div>
-            <div class="service-text">
-              <h3>Plumbing Services</h3>
-              <p> Over the years, we have put together a team of professionals in the plumbing industry. We have experience in both new construction and remodel projects and also provide engineering and design services</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-            <div class="service-box">
-              <div class="service-icon"><i class="fa fa-diamond"></i></div>
-              <div class="service-text">
-                <h3>Mechanical Services</h3>
-                <p> Our dedicated team of project specialist have extensive experience installing a wide variety of systems to meet the individual customer’s requirements.</p>
-              </div>
-            </div>
-          </div>
+
       </div>
     </div>
   </div>
   <!--SERVICE END-->
 
 
-  <!--CTA2 START-->
-  <div class="cta2">
+  <!-- CTA2 START-->
+  <!-- <div class="cta2">
     <div class="container">
       <div class="row white text-center">
         <h3 class="wd80 fnt-24">“Essa is the man, you can ask anyone and they will tell you the same.” - Abdallah Shaban</h3>
-        <p class="cta-sub-title"></p>
+        <p class="cta-sub-title"></p> -->
         <!-- <a href="#" class="btn btn-default">Request A Quote</a> -->
-      </div>
+      <!-- </div>
     </div>
-  </div>
-  <!--CTA2 END-->
+  </div> -->
+  <!--CTA2 END -->
 
   <!--CONTACT START-->
-  <div id="contact" class="section-padding">
+  <div id="contact">
     <div class="container">
       <div class="row">
         <div class="page-title text-center">
@@ -246,30 +234,44 @@
         <div id="errormessage"></div>
 
         <div class="form-sec">
-          <form action="" method="post" role="form" class="contactForm">
+          <!-- <form id = "fr1" action="" method="post" role="form" class="contactForm"> -->
+          <form action="//submit.form" id="ContactUs100" method="post" role="form" class="contactForm" onsubmit="return ValidateForm(this);">
+                <script type="text/javascript">
+                function ValidateForm(frm) {
+                if (frm.Name.value == "") { alert('Name is required.'); frm.Name.focus(); return false; }
+                if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
+                if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
+                if (frm.message.value == "") { alert('Please enter comments or questions.'); frm.Comments.focus(); return false; }
+                return true; }
+                </script>
             <div class="col-md-4 form-group">
-              <input type="text" name="name" class="form-control text-field-box" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+              <input type="text" name="name" class="form-control text-field-box" id="tb1" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
               <div class="validation"></div>
             </div>
             <div class="col-md-4 form-group">
-              <input type="email" class="form-control text-field-box" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+              <input type="email" class="form-control text-field-box" name="FromEmailAddress" id="tb2" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
               <div class="validation"></div>
             </div>
             <div class="col-md-4 form-group">
-              <input type="text" class="form-control text-field-box" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <input type="text" class="form-control text-field-box" name="subject" id="tb3" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
               <div class="validation"></div>
             </div>
             <div class="col-md-12 form-group">
-              <textarea class="form-control text-field-box" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <textarea id = "tb4" class="form-control text-field-box" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
               <div class="validation"></div>
-
-              <button class="button-medium" id="contact-submit" type="submit" name="contact">Submit Now</button>
+              <input name="skip_Submit" class="button-medium" type="submit" value="Submit" />
+  
+              <script src="https://www.100forms.com/js/FORMKEY:KJAQYYGJR9KN" type="text/javascript"></script>
+              <a href="https://www.100forms.com" id="lnk100" title="web forms">Powered by webforms100</a>
             </div>
           </form>
         </div>
       </div>
     </div>
   </div>
+
+
+
   <!--CONTACT END-->
 
   <!--FOOTER START-->
