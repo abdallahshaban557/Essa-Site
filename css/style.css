@@ -56,7 +56,7 @@ Header
 }
 .navbar-brand {
 	height: inherit;
-	font-family: 'Josefin Slab', serif;
+	font-family: 'Denmark Regular';
 	font-weight: 700;
 	text-transform: uppercase;
 	padding: 5px;
@@ -108,7 +108,7 @@ a.btn-banner {
     padding: 12px 22px;
     line-height: 0px;
     border-radius: 3px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Denmark Regular';
     font-weight: 400;
     font-size: 11px;
     text-transform: uppercase;
@@ -145,7 +145,7 @@ a.btn-banner:hover, a.btn-banner:focus
     border-width: 0px;
     margin: 0px;
     padding: 0px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Denmark Regular';
     font-size: 62px;
     letter-spacing: 6px;
     text-transform: uppercase;
@@ -259,7 +259,7 @@ p.cta-sub-title
 .fig-caption h3
 {
 	font-size: 20px;
-	font-family: 'Josefin Slab', serif;
+	font-family: 'Denmark Regular';
 }
 .fig-caption p
 {
@@ -460,7 +460,8 @@ margin-top: 5px;
     color: #ffffff;
     cursor: pointer;
     display: block;
-    font-family: "Montserrat", sans-serif;
+    /* changed font family */
+    font-family: "Denmark Regular";
     font-size: 18px;
     font-weight: 400;
     height: 48px;
@@ -581,7 +582,7 @@ cta
 }
 .fig-caption h3 {
     font-size: 19px;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Denmark Regular';
 }
 .wd75
 {
