@@ -93,10 +93,10 @@ Header
     padding: 0px;
     letter-spacing: 6px;
     font-size: 15px;
-    color: #fff;
+    color: black;
     text-transform: uppercase;
     font-weight: 400;
-    color: #ffffff;
+    color: black;
     -webkit-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
     -moz-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
     -ms-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
@@ -150,7 +150,7 @@ a.btn-banner:hover, a.btn-banner:focus
     letter-spacing: 6px;
     text-transform: uppercase;
     font-weight: 400;
-    color: #ffffff;
+    color: black;
     -webkit-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
     -moz-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
     -ms-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
@@ -525,7 +525,8 @@ margin-top: 5px;
 }
 #banner
 {
-    background: url('../img/banner-bg.jpg') no-repeat;
+    /* changed background image here */
+    background: url('../img/banner-new.png') no-repeat;
     background-size: cover;
     min-height: 500px;
 }
