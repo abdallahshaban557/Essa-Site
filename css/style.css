@@ -526,7 +526,7 @@ margin-top: 5px;
 #banner
 {
     /* changed background image here */
-    background: url('../img/banner-new.png') no-repeat;
+    background: url('../img/banner-new-class.png') no-repeat;
     background-size: cover;
     min-height: 500px;
 }
